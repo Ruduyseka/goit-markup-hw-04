@@ -76,7 +76,7 @@ body {
         display: flex;
         gap: 50px;
     }
-     
+       
     .mail{
  font-weight: 500;
 font-size: 14px;
@@ -85,6 +85,11 @@ letter-spacing: 0.02em;
 
 color:var(--header-secondary-tel-cl);
 
+   }
+   .mail-icon{
+    fill: currentColor;
+    margin-right: 10px;
+    text-decoration: none;
    }
     .adress-phone{
         gap: 50px;
