@@ -188,7 +188,8 @@ cursor: pointer;
     padding-top: 94px;
     padding-bottom: 94px;
     }
-.about-our{
+.about-our,
+.our-clients{
         
     font-weight: 700;
     font-size: 36px;
@@ -384,7 +385,7 @@ color: #757575;
 display: flex;
 width: 44px;
 height: 44px;
-color:#AFB1B8 ;
+fill:#AFB1B8 ;
 background-color: #FFFFFF;
 border-radius: 50%;
 align-items: center;
@@ -394,8 +395,35 @@ align-items: center;
  .socials-link:hover,
  .socials-link:focus{
 background-color: #2196F3;
-fill: #FFFFFF
+fill: #FFFFFF;
     }
+    .clients-item{
+        outline: 1px solid #AFB1B8;
+        outline-offset: -1px;
+    }
+  .clients-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin: 0px 0px 94px 0px;
+
+      } 
+  .clients-link{
+    display: flex;
+    width: 170px;
+    height: 92px;
+    fill:#AFB1B8;
+border-radius: 50%;
+align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    }
+   
+ .clients-link:hover,
+ .clients-link:focus{
+fill: #2196F3;
+  } 
 
 .logo1{
     color: #2196F3;
