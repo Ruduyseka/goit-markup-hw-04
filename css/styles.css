@@ -440,6 +440,45 @@ fill: #2196F3;
     padding-top: 60px;
     padding-bottom: 60px;
 }
+.about-title-footer{
+    font-weight: 700;
+     margin-bottom: 10px;
+    font-size: 14px;
+    line-height:calc(16 / 14);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+color:#FFFFFF;
+}
+.social-list-footer{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 10px;
+}
+.socials-link-footer{
+    display: flex;
+    width: 44px;
+    height: 44px;
+    fill:#FFFFFF ;
+    background-color: red;
+    border-radius: 50%;
+    align-items: center;
+        justify-content: center;
+        }
+       
+     .socials-link-footer:hover,
+     .socials-link-footer:focus{
+    background-color: #2196F3;
+    fill: #FFFFFF;}
+    .contacts-group-social{
+display: flex;
+align-items: baseline;
+gap: 70px;
+    }
+    .social-list-footer{
+        display: flex;
+        padding: 0;
+    }
 
 /* Portfolio */
 
