@@ -209,7 +209,6 @@ cursor: pointer;
     }
     .list-our{
         padding-top: 30px;
-        padding-bottom: 30px;
     }
     .logo-footer{
         display: block;
@@ -364,8 +363,10 @@ letter-spacing: 0.03em;
 
 color: #212121;
     }
+
     .job-title{
 line-height:calc(19/16);
+margin-bottom: 16px;
 /* identical to box height */
 
 text-align: center;
@@ -373,7 +374,28 @@ letter-spacing: 0.03em;
 
 color: #757575;
     }
-
+    .socials{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+ .socials-link{
+display: flex;
+width: 44px;
+height: 44px;
+color:#AFB1B8 ;
+background-color: #FFFFFF;
+border-radius: 50%;
+align-items: center;
+    justify-content: center;
+    }
+   
+ .socials-link:hover,
+ .socials-link:focus{
+background-color: #2196F3;
+fill: #FFFFFF
+    }
 
 .logo1{
     color: #2196F3;
