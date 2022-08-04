@@ -106,7 +106,7 @@ color: #757575;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 109px;
-    background-image:linear-gradient(to right,#C4C4C4,rgba(47, 48, 58, 0.4)) ,
+    background-image:linear-gradient(to right,rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)) ,
     url(../images/Main/main-bg-cl.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -189,7 +189,7 @@ cursor: pointer;
     .our-team-main{
     padding-top: 94px;
     padding-bottom: 94px;
-    margin-bottom: 94px;
+    background-color: #F5F4FA;
     }
 .about{
     padding-top: 94px;
@@ -411,14 +411,18 @@ align-items: center;
 background-color: #2196F3;
 fill: #FFFFFF;
     }
+    .clients{
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
 .clients-list{
+    margin: 0;
+    padding: 0;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 30px;
-    margin: 0px 0px 94px 0px;
-
-      } 
+    } 
   .clients-link{
     display: flex;
     width: 170px;
@@ -462,7 +466,9 @@ border:1px solid #2196F3;
 color:#FFFFFF;
 }
 .social-list-footer{
-display: flex;
+    margin: 0;
+    padding: 0;
+    display: flex;
 align-items: center;
 justify-content: center;
 gap: 10px;
@@ -486,11 +492,6 @@ gap: 10px;
 display: flex;
 align-items: baseline;
 gap: 70px;
-    }
-    .social-list-footer{
-        display: flex;
-        padding: 0;
-    }
 
 /* Portfolio */
 
