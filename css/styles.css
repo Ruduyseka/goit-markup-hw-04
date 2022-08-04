@@ -50,7 +50,9 @@ body {
         padding-right: 15px;
         margin-left: auto;
         margin-right: auto;
-
+    }
+    .no-probel{
+        display: block;
     }
     .header-container,
     .adress{
@@ -515,14 +517,14 @@ gap: 70px;
     display: flex;
     gap: 30px;
     flex-wrap: wrap;
-    padding-bottom: 94px;
-}
+    }
 .hero1{
     padding-top: 94px;
     padding-bottom: 94px;
 }
 .images-portfolio{
     padding: 20px 24px;
+        border: none;
     border: 1px solid #eeeeee;
 }
 
